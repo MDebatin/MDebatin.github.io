@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Ammu Nation</title>
+  <meta charset="8">
+  <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen" />
+  <link rel="icon" type="imagem/png" href="Armas/Logo.webp" />
+
+  <head>
+
+  <body>
+    <header class="bg-header">
+      <div class="container">
+        <a href="#"><span class="grid-4"><IMG id="logo2" src="Armas/Logo.webp" width="40px" alt="Logo"></span></a>
+        <nav>
+          <ul class="grid-12">
+            <li><a href="./index.html">Voltar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <form action="action_page.php">
+      <div class="container">
+
+        <h1>Cadastro de Produto</h1>
+
+        <label for="Nome do Produto"><b>Nome do Produto</b></label>
+        <input type="text" placeholder="Inserir Nome" name="email" required>
+
+        <label for="Categoria"><b>Categoria: </b></label>
+        <select class="selecionar">
+          <option>Rifle</option>
+          <option>Sniper</option>
+          <option>Pistola</option>
+          <option>Sub</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="quantidade"><b>Quantidade Disponível</b></label>
+        <input type="text" placeholder="Inserir Quantidade" name="psw" required>
+
+        <label for=Preço"><b>Preço</b></label>
+        <input type="text" placeholder="Inserir Preço" name="psw-repeat" required>
+
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancelar</button>
+          <button type="submit" class="signupbtn">Cadastrar</button>
+        </div>
+      </div>
+    </form>
+  </body>
