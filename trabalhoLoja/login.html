@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+      <title>Ammu Nation</title>
+      <meta charset="8">
+      <link rel="stylesheet" type="text/css" href="Login.css" media="screen" />
+      <link rel="icon" type="imagem/png" href="Armas/Logo.webp" />
+
+      <head>
+
+      <body>
+            <header class="bg-header">
+                  <div class="container">
+                        <a href="#"><span class="grid-4"><IMG id="logo2" src="Armas/Logo.webp" width="40px" alt="Logo"></span></a>
+                        <nav>
+                              <ul class="grid-12">
+                                    <li><a href="./index.html">Voltar</a></li>
+                              </ul>
+                        </nav>
+                  </div>
+            </header>
+            <form action="action_page.php" method="post">
+                  <h1>Login</h1>
+
+                  <div class="container">
+                        <label for="uname"><b>Usuário</b></label>
+                        <input type="text" placeholder="Inserir Usuário" name="uname" required>
+
+                        <label for="psw"><b>Senha</b></label>
+                        <input type="password" placeholder="Inserir Senha" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <label>
+                              <input type="checkbox" checked="checked" name="remember"> Lembre-me
+                        </label>
+                  </div>
+
+                  <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancelar</button>
+                        <span class="psw">Não possui conta? <a href="cadastro.html">Cadastre-se!</a></span>
+                  </div>
+            </form>
+      </body>
