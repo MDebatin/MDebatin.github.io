@@ -1,0 +1,35 @@
+
+Não consegui exportar a base de dados, aqui está a estrutura:
+
+-------------------------------------
+
+data base teste
+
+-------------------------------------
+
+table users
+
+id = A.I
+username = varchar[255]
+name = varchar[255]
+email [unique] = varchar[255]
+phone = int[11]
+password = = varchar[255]
+
+-------------------------------------
+
+table files
+
+id = A.I
+username = varchar[255]
+name = varchar[255] 
+size = int[11]
+downloads = int[11]
+
+-------------------------------------
+
+table password_reset
+
+id = A.I
+email = varchar[255] 
+token [unique] = varchar[255]
